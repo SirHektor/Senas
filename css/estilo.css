@@ -57,7 +57,7 @@ header {
 }
 
 .botao{
-    background-color: #DC4844;
+    background-color: #F5073E;
     height: 45px;
     width: 150px;
     text-align: center;
@@ -103,22 +103,24 @@ header {
 h1 {
     color: white;
     font-size: 80px;
+   
 }
 
-.linha-amarela {
-    border: solid 1px #FFAF00;
+.linha-vermelha {
+    border: solid 2px #DB1B0F;
 }
 
 .titulo-senai {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: fantasy, Courier, monospace;
     color: #F9003D;
     font-size: 50px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 200;
+    word-spacing: 10px;
 }
 
 .mouse {
-    width: 80px;
+    width: 70px;
 }
 
 .sobre-projetos {
@@ -128,7 +130,7 @@ h1 {
 }
 
 .sobre-projetos h2 {
-    color: #F9003D;
+    color: #ffffff;
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -148,15 +150,17 @@ h1 {
 }
 
 .texto-participantes {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+    color: #FFBE2E;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 600;
+    word-spacing: -10px;
+    
 }
 
 .conteudo-sobre h3 {
-    color: #FFAF00;
+    color: #ffffff;
     font-size: 45px;
     font-weight: 500;
 }
@@ -192,7 +196,7 @@ h1 {
 }
 
 .card-info p {
-    color: #A259F7;
+    color: #7E1EE6;
     font-size: 22px;
     font-weight: 600;
     border: solid 2px #A259F7;
@@ -213,16 +217,16 @@ h1 {
 }
 
 .conteudo-endereco h2 {
-    color: #FFAF00;
+    color: #ffffff;
     font-size: 50px;
     font-weight: 500;
 }
 
 .texto-endereco {
-    color: #A259F7;
+    color: #7E1EE6;
     font-family: 'Courier New', Courier, monospace;
     background-color: #010010;
-    border: solid 2px #A259F7;
+    border: solid 2px #7E1EE6;
     padding: 50px 50px;
     width: 550px;
 }
@@ -233,7 +237,7 @@ h1 {
 }
 
 .mapa {
-    width: 230px;
+    width: 210px;
     position: absolute;
     top: 0px;
     right: 20px;
@@ -252,4 +256,8 @@ footer span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 90%;
     text-align: center;
+}
+.p {
+    font-family: fantasy, sans-serif;
+    font-weight: 100;
 }

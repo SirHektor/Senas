@@ -37,12 +37,32 @@
 }
 
 .mapa {
-    width: 100%;
+    width: 70%;
     margin-top: 30px;
+    margin-left: 100px;
 }
 
 @media screen and (max-width : 360px){
     .titulo-senai{
         font-size: 42px;
     }
+}
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(48, 48, 48, 0.9);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+}
+.menu-barras{
+    display: initial;
+}
+
+#icone {
+    color: white;
+    font-size: 30px;
 }
